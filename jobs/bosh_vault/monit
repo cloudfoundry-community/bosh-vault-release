@@ -1,0 +1,5 @@
+check process bosh_vault
+  with pidfile /var/vcap/sys/run/bosh_vault/pid
+  start program "/var/vcap/jobs/bosh_vault/bin/ctl start"
+  stop program "/var/vcap/jobs/bosh_vault/bin/ctl stop"
+  group vcap

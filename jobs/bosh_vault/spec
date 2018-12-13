@@ -1,0 +1,14 @@
+---
+name: bosh_vault
+
+templates:
+  ctl.erb: bin/ctl
+  config.yml.erb: config/bosh_vault.yml
+  properties.sh.erb: data/properties.sh
+
+packages:
+  - bosh-vault
+
+properties:
+    bosh_vault.config:
+      description: "Raw YAML configuration object for bosh_vault"

@@ -1,0 +1,6 @@
+<%
+  # If the config was passed in use it as is and exit
+  if_p("bosh_vault.config") do |config|
+%>
+<%= config %>
+<% end %>

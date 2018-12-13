@@ -1,0 +1,5 @@
+---
+name: bosh-vault
+dependencies: []
+files:
+    - bosh-vault/bosh-vault-0.1.0.tar.gz
