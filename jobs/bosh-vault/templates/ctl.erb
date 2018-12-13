@@ -1,0 +1,38 @@
+#!/bin/bash
+
+RUN_DIR=/var/vcap/sys/run/bosh-vault
+LOG_DIR=/var/vcap/sys/log/bosh-vault
+TLS_DIR=/var/vcap/jobs/bosh-vault/tls
+PIDFILE=${RUN_DIR}/pid
+
+case $1 in
+
+start)
+mkdir -p ${RUN_DIR} ${LOG_DIR} ${TLS_DIR}
+chown -R vcap:vcap ${RUN_DIR} ${LOG_DIR}
+
+echo $$ > $PIDFILE
+
+# Inflate certs using ttar
+/var/vcap/packages/ttar/bin/ttar < ${TLS_DIR}/certs.ttar \
+>>  $LOG_DIR/bosh-vault.stdout.log \
+2>> $LOG_DIR/bosh-vault.stderr.log
+
+cd /var/vcap/packages/bosh-vault
+
+exec /var/vcap/packages/bosh-vault/bin/bosh-vault -config /var/vcap/jobs/bosh-vault/config/bosh-vault.yml \
+>>  $LOG_DIR/bosh-vault.stdout.log \
+2>> $LOG_DIR/bosh-vault.stderr.log
+
+;;
+
+stop)
+kill -9 `cat $PIDFILE`
+rm -f $PIDFILE
+
+;;
+
+*)
+echo "Usage: ctl {start|stop}" ;;
+
+esac
