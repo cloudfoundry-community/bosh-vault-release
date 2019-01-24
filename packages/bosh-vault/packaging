@@ -4,7 +4,7 @@ set -e -x # exit if a command exits with non-zero status
 # $BOSH_COMPILE_TARGET - where this package & spec'd source files are available
 # $BOSH_INSTALL_TARGET - where you copy/install files to be included in package
 
-BOSH_VAULT_VERSION=0.2.0
+BOSH_VAULT_VERSION=0.2.1
 
 cd bosh-vault
 tar -xzvf bosh-vault-linux-amd64-${BOSH_VAULT_VERSION}.tar.gz
