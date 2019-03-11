@@ -28,7 +28,7 @@ Here's an example of a functional job entry:
                 skipverify: false
               vault:
                 address: https://vault.server.address:8200
-            
+                token: "some-vault-token"
             tls:
               - name: "uaa-ca"
                 cert: |

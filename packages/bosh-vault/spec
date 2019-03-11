@@ -2,4 +2,4 @@
 name: bosh-vault
 dependencies: []
 files:
-    - bosh-vault/bosh-vault-linux-amd64-0.3.0.tar.gz
+    - bosh-vault/bosh-vault-linux-amd64-0.4.0.tar.gz
