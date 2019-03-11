@@ -22,3 +22,7 @@ bosh-vault/bosh-vault-linux-amd64-0.4.0.tar.gz:
   size: 7513024
   object_id: 603676f9-203c-45cb-56c0-bfb637dae493
   sha: 63fc3713d1703cb28dbee7ac68cd7a4aa5dc33f0
+bosh-vault/bosh-vault-linux-amd64-0.4.1.tar.gz:
+  size: 7511406
+  object_id: e1cdb135-6434-47e3-731b-360a3e822a6b
+  sha: 418abf6f4d600395a47ff051c55995b8562aea31
