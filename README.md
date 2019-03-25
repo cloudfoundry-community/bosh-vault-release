@@ -22,7 +22,6 @@ Here's an example of a functional job entry:
               log:
                 level: "DEBUG"
               uaa:
-                enabled: true
                 address: "https://uaa.server.address:8443"
                 ca: "/var/vcap/jobs/bosh-vault/tls/uaa-ca/cert.pem"
                 skipverify: false
