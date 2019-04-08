@@ -1,0 +1,20 @@
+name: bosh-vault
+version: 0.6.0
+commit_hash: 82a312b
+uncommitted_changes: true
+jobs:
+- name: bosh-vault
+  version: e277af0b2b83491454f3293379cbad5b4699a47e
+  fingerprint: e277af0b2b83491454f3293379cbad5b4699a47e
+  sha1: 03dcf718ca124206fd459b34d006bc2287bef0db
+packages:
+- name: bosh-vault
+  version: 783540d5a4ad32268503d57e7af54cd414900c48
+  fingerprint: 783540d5a4ad32268503d57e7af54cd414900c48
+  sha1: 64e9656687837b39ef8f80bb20edd7fa6e6a4dc6
+  dependencies: []
+- name: ttar
+  version: 3fa6de5444a3a604a92881d7186eadaef4e0323b
+  fingerprint: 3fa6de5444a3a604a92881d7186eadaef4e0323b
+  sha1: 7f207aed022b6e54e4572dc00a6d932b0b4209d0
+  dependencies: []
