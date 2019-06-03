@@ -1,36 +1,36 @@
 bosh-vault/bosh-vault-linux-amd64-0.1.0.tar.gz:
   size: 6791155
-  object_id: 1c6fe184-e96f-4911-6344-559fe3e4a4fa
-  sha: ad3a09b4e8c10641de32e09708f31c346af51d01
+  object_id: b63bf071-783a-4d36-7650-d5809014bed3
+  sha: sha256:94a2ca6cf49a11a0652487642e34278afc49121f4682cf44186b888241461df5
 bosh-vault/bosh-vault-linux-amd64-0.2.0.tar.gz:
   size: 6747699
-  object_id: 39368372-0b89-454c-6d30-0f239b943cd5
-  sha: 7a14693755d00294ca337a831a580e8b64750a4b
+  object_id: 5a06c19f-d4ad-423e-6596-105af4b3fcaa
+  sha: sha256:fd1afb19368b5f6709b59bd00af833eddc6a532448b2bdaba891c67c62fc98b0
 bosh-vault/bosh-vault-linux-amd64-0.2.1.tar.gz:
   size: 6748106
-  object_id: 2bc6f971-44c8-4e4c-5fe9-47c4e4718a72
-  sha: 4b40c208fafc9a61a7c9f58ee55e5ad47a04588d
+  object_id: 10ac8187-4f0f-401c-4bf4-1da6861e2aed
+  sha: sha256:d80783c7ddc4e399e5d5539d26df68fdd3b1664e3fba96540861290d8e75da9d
 bosh-vault/bosh-vault-linux-amd64-0.2.2.tar.gz:
   size: 6754624
-  object_id: 0d673df8-eaf0-456a-717e-a9442bee3d8f
-  sha: aaae122ce1cfd3b64806c0816926936c8029b864
+  object_id: 18a37838-1ab4-42ff-6320-2f009776affd
+  sha: sha256:4d560b7b6a3dcbede90ccf1e0ebd493c6a92f2f700f14d3b614f29426b4ca228
 bosh-vault/bosh-vault-linux-amd64-0.3.0.tar.gz:
   size: 7509138
-  object_id: 1b4dcdbd-9a61-4e9c-768f-62eb3d7bd35e
-  sha: 36f61ac3743517add2f53309c6297fc286884f5b
+  object_id: e6aa998c-c9d3-4b25-74a3-320da2c7450c
+  sha: sha256:ecf095156efc153b60cf28d62208e170784923fb36abcca02c9ab203b03c72ce
 bosh-vault/bosh-vault-linux-amd64-0.4.0.tar.gz:
   size: 7513024
-  object_id: 603676f9-203c-45cb-56c0-bfb637dae493
-  sha: 63fc3713d1703cb28dbee7ac68cd7a4aa5dc33f0
+  object_id: c0718e71-947b-4127-7144-ab9a4a3cfcde
+  sha: sha256:0788cba8b1830d0549175a112636d5f2e13fbadc5dd8b12507efef9fb1496076
 bosh-vault/bosh-vault-linux-amd64-0.4.1.tar.gz:
   size: 7511406
-  object_id: e1cdb135-6434-47e3-731b-360a3e822a6b
-  sha: 418abf6f4d600395a47ff051c55995b8562aea31
+  object_id: 7cf1f8c0-13e0-4946-653d-3c1f73f302da
+  sha: sha256:12353add4f25cdf43b58b01f0d11e9b7dd49cc6fa0ab13b467eb8dab142e6269
 bosh-vault/bosh-vault-linux-amd64-0.5.0.tar.gz:
   size: 9386281
-  object_id: f43124b0-bb43-4b68-792f-e398800f7a09
-  sha: 55434edcd15a6122e4a2b085c46b47a3da142abd
+  object_id: 945a63d3-80f7-492a-4a7a-2d589a9708a2
+  sha: sha256:5281adfd6c5efc14720daf6da48c3a19f8de4e6af461ee34932e5793df7e48f3
 bosh-vault/bosh-vault-linux-amd64-0.6.0.tar.gz:
   size: 9388235
-  object_id: 4a508566-2bf7-48d8-5195-8bea50d1fc61
-  sha: 5a97b9d0207f88344091ac1ba16e3a1923c22499
+  object_id: 6c602567-59ef-47fc-4186-ce5727d8cc5f
+  sha: sha256:0605e50f388e57f02dbbc2f3b3c82713cc3753ea5105197c757054ac7fae4aca
