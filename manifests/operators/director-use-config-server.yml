@@ -1,0 +1,12 @@
+- type: replace
+  path: /instance_groups/name=bosh/properties/director/config_server?
+  value:
+    enabled: true
+    url: ((bosh_vault_addr))
+    ca_cert: ((bosh_vault_ca))
+
+    uaa:
+      url: "https://((internal_ip)):8443" # address of the UAA server, usually collocated on the director
+      ca_cert: ((uaa_ssl.ca))
+      client_id: director_config_server # should match UAA client for director to use
+      client_secret: ((uaa_config_server_pass)) # should match UAA client for director to use

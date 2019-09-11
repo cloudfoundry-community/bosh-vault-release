@@ -1,0 +1,14 @@
+- type: replace
+  path: /instance_groups/name=bosh/jobs/name=uaa/properties/uaa/clients/director_config_server?
+  value:
+    override: true
+    authorized-grant-types: client_credentials
+    scope: ""
+    authorities: config_server.admin, uaa.resource
+    secret: ((uaa_config_server_pass))
+
+- type: replace
+  path: /variables/-
+  value:
+    name: uaa_config_server_pass
+    type: password
