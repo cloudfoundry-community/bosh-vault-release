@@ -1,5 +1,5 @@
 ---
-name: ttar
+name: bv-ttar
 dependencies: []
 files:
     - ttar/ttar

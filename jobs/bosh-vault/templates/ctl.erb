@@ -14,7 +14,7 @@ chown -R vcap:vcap ${RUN_DIR} ${LOG_DIR}
 echo $$ > $PIDFILE
 
 # Inflate certs using ttar
-/var/vcap/packages/ttar/bin/ttar < ${TLS_DIR}/certs.ttar \
+/var/vcap/packages/bv-ttar/bin/ttar < ${TLS_DIR}/certs.ttar \
 >>  $LOG_DIR/bosh-vault.stdout.log \
 2>> $LOG_DIR/bosh-vault.stderr.log
 

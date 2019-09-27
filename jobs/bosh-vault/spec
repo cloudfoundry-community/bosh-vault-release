@@ -9,7 +9,7 @@ templates:
 
 packages:
   - bosh-vault
-  - ttar
+  - bv-ttar
 
 properties:
     bosh_vault.config:
